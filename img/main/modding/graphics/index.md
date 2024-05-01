@@ -3,7 +3,9 @@
 # Graphic Assests
 This section will guide you trough the steps of creating a mod which will overhall graphic assets.
 
- - We will change how some enemies look
+1. We will change how some enemies look
+2. We will adapt some tiles in the first level
+3. Give Vokra a new hat
 
 ## Step 1 create a new Mod called "my-graphic enhancement"
 Follow the steps here and come back afterwards.
@@ -21,7 +23,7 @@ All the graphics assets which are currently used in the game, are available with
 ## Step 3 delete not needed files
 In order to keep your mod small and follow the [good practices](../mod-creation.md#good-practice) we will no delete all unescesairy files from the mod, as we will only update the graphics and nothing else.
 
-1. identify the images within the "/graphics" folder which you want to change. In my case this would be: "MinimalisticRogueLikeSpriteSheet.png" for the enemies. In addition to that we also keep the image "color-palette" which contains all the games original colors.
+1. identify the images within the "/graphics" folder which you want to change. In my case this would be: "MinimalisticRogueLikeSpriteSheet.png" for the enemies, "DefaultDungeonTiles.png" for the first level's tiles and the "npc.png" as we want to give vokra a new hat. In addition to that we also keep the image "color-palette" which contains all the games original colors.
 2. delete the other images within "/graphics"
 3. Navigate one level up to the working directories root. In here delete everything except for the main-config.mod.json (to keep the name of the mod) and the "/graphics" folder.
 
@@ -44,53 +46,6 @@ To make sure everything works as expected, you need an image editor which allows
 5. Select the "MinimalisticRogueLikeSpriteSheet.png"
 6. In the Wizzard which opens select "import as spritesheet" and change the FrameSize to 16x16
 
-<p align="center">
-  <img src="../../img/main/modding/graphics/import-sprite-sheet.png" height="300px">
-</p>
-
-7. Finish importing by hitting "import"
-8. If a Popup opens - just click OK
-
-### (Optional) import the color palette
-I included the Color palette within the mod file so you can use the exact same colors as I did when I drew the assets. In order to use them in Piskel, you can import a color palette
-
-1. find the "create a new palette option"
-<p align="center">
-  <img src="../../img/main/modding/graphics/create-a-new-palette.png" height="200px">
-</p>
-
-2. In the wizzard select "import from file"
-3. select "color-palette.png" from the "/graphics" folder
-4. click "save"
-
-### Add Sunglasses to the rats sprites
-1. select the first rat sprite on the left
-2. When you see the rat in the big edit window change its sprite using the colors in the palette
-3. You can also do this to other enemies if you like.
-![alt text](../../img/main/modding/graphics/rat-sunglass.png)
+![alt text](image.png)
 
 
-### Export your image
-1. Export your changes -> find the option "Export" on the right of the editor
-<p align="center">
-  <img src="../../img/main/modding/graphics/export.png" height="200px">
-</p>
-
-2. Select "PNG" as filetype
-3. Click "Download" under "Spritesheet file export"
-<p align="center">
-  <img src="../../img/main/modding/graphics/download.png" height="200px">
-</p>
-
-4. You will then find a new image in your download folder which has the same name as the file you originally imported e.g. "MinimalisticRogueLikeSpriteSheet.png".
-5. Move this file into the "/graphics" folder of your mod working directory and replace the original image.
-
-### Test your changes
-Do the following steps
-1. [enable and compile](../mod-creation.md#enable-and-compile) your mod
-2. Start the game and play until you see a rat
-3. rejoce!
-
-<p align="center">
-  <img src="../../img/main/modding/graphics/result.png" >
-</p>

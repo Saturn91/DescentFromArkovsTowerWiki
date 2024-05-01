@@ -11,6 +11,9 @@ This will create a new Mod "newMod" in the mod list bellow.
 
 | Please note that only one item called "newMod" can be contained in the list, in order to add another one, you need to [rename](#rename-a-mod) the existing "newMod" first.
 
+# Good practice
+In order to keep the mod size to a minimum it is good practice to delete all file which you didn't change. In case several mods are enabled, this allows the combination of multiple mods, also it reduces the size of your mod folder if you would share it with other people.
+
 # Editing a mod
 A Mod is nothing else than a folder in your systems File Explorer which contains alternative files to the default files which gets shipped with an unmodded file. All Files included in this "working directory" will be used in a newly started game instead of the original ones. This allows you to fairly simply change the content of the game.
 
@@ -38,3 +41,12 @@ Each mod contrains a file `main-config.mod.json` this files has a property "conf
 </p>
 
 # Enable and Compile
+In order to add a mod to your game, you simple have to enable it. This happens in two simple steps.
+
+1. use the "enable" option in the mod's context menu
+2. to compile the mod, return to the main menu
+3. if you see a message "loaded config [your mod name]"
+
+![alt text](../img/main/modding/mod-compiled.png)
+
+If the message sais "newMod" you can [change its config name](#change-a-mods-config-name) to a better fitting name.
