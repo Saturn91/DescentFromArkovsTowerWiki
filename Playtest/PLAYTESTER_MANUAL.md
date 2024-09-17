@@ -81,6 +81,9 @@ A bug which locks you in, you will no longer be abler to finish the game, exit t
 3. Start a run and try not to die
 4. die (or win :D)
 5. Do you have some feedback already at this point, let Saturn91 know.
-6. Play some more
-7. As my game is also highly moddable, please try to install one of the mods from the [workshop](https://steamcommunity.com/workshop/browse/?appid=2876720&browsesort=trend&section=readytouseitems), can you find out how?
-8. If you have the time, try to create and run your own modfile, can you maybe change something in the game?
+6. Have a brief look at the menu, are you missing something, can you find all that you expect
+7. Do you have some feedback already at this point, let Saturn91 know.
+8. Play some more
+9. As my game is also highly moddable, please try to install one of the mods from the [workshop](https://steamcommunity.com/workshop/browse/?appid=2876720&browsesort=trend&section=readytouseitems), can you find out how?
+10. If you have the time, try to create and run your own modfile, can you maybe change something in the game?
+11. One final time give Feedback to Saturn91
