@@ -49,4 +49,12 @@ Edit these to your content
 
 ## Update
 
-Updateing the mods details is then as easy as selecting the dropdown options "publish changes". If the option i sno longer available you might have edited a value in the meta.json which is not possible (Modname or steam id).
+Updateing the mods details is then as easy as selecting the dropdown options "publish changes".
+
+1. make sure your mod is not subscribed (unsubscribe otherwhise)
+2. make sure you did not edit the modname or the steam id within the meta.json
+3. use "publish changes" from the dropdown
+
+If the option is not available:
+- you might have edited a value in the meta.json which is not possible (Modname or steam id).
+- make sure that you are not subscribed in order to be able to update
