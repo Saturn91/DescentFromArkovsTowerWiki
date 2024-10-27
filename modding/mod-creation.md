@@ -47,6 +47,8 @@ In order to add a mod to your game, you simple have to enable it. This happens i
 2. to compile the mod, return to the main menu
 3. if you see a message "loaded config [your mod name]"
 
-![alt text](../img/main/modding/mod-compiled.png)
+After navigating back to the game (Escape key or using the Back or Home Button) you will get a Message in the bottom right telling you that 1 mod has been installed. Now the modded content will be available as soon as you start a new game.
 
-If the message sais "newMod" you can [change its config name](#change-a-mods-config-name) to a better fitting name.
+You can [change its config name](#change-a-mods-config-name) to a better fitting name.
+
+![alt text](steam-workshop/modInstalled.png)
