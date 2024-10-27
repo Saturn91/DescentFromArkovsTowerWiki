@@ -36,7 +36,7 @@ On the Workshoppage of your mod you can decide how the mod should be visible. By
 
 ![alt text](mod-visibility.png)
 
-# Edit the Mods data / Previewimage
+# Edit the Mod
 By default when you initially click "publish mod" a few files are beeing created within the mod folder. This can be edited in order to change how it appears in the Workshop.
 
 In order to edit those, open the Modfolder by using the dropdown action "open mod folder" from the in game modmenu.
@@ -49,7 +49,7 @@ Edit these to your content
 
 ## Update
 
-Updateing the mods details is then as easy as selecting the dropdown options "publish changes".
+Updateing your mods to a new version is then as easy as selecting the dropdown options "publish changes".
 
 1. make sure your mod is not subscribed (unsubscribe otherwhise)
 2. make sure you did not edit the modname or the steam id within the meta.json
