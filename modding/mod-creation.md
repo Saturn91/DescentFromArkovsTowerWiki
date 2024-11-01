@@ -34,11 +34,17 @@ In order to rename a mod, simply [open its working directory](#open-a-mods-worki
 This renames the mod and how it is displayed in the modmanager. In order to see the new name, simply navigate to the main menu and reopen the modmanager. This should update the displayed name.
 
 ## Change a mods config name
-Each mod contrains a file `main-config.mod.json` this files has a property "config" which identifies the mod. It is used to display which mod is currently active. If you do not change this, the mod will always be identfied as default "new mod" which is not ideal. In order to change this, open the file "main-config.mod.json" from the working directory with any text editor and edit the value to a more fitting name (e.g. the name of the working folder).
+Each mod contains a file `main-config.mod.json` this files has a property "config" which identifies the mod. It is used to display which mod is currently active. If you do not change this, the mod will always be identfied as default "newMod" which is not ideal. In order to change this, open the file "main-config.mod.json" from the working directory with any text editor and edit the value to a more fitting name (e.g. the name of the working folder).
 
 <p align="center">
   <img src="../img/main/modding/config-name.png" height="300px">
 </p>
+
+Also change the actual folders name from `newMod` to e.g. `myAwesomeMod`. 
+
+> When renaming the mod folder make sure to only use letters (special characters can confuse some operating systems). Good practice is to use a `camelcase` pattern. E.g. `balancingUpdate`.
+
+> Names like `paladin-player` or `spanish_localization` or `more levels` might cause issues on some systems
 
 # Enable and Compile
 In order to add a mod to your game, you simple have to enable it. This happens in two simple steps.
