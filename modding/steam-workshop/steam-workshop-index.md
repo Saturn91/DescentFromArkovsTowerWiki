@@ -1,5 +1,7 @@
 <a href="../index.md">back</a>
 
+>If you stumble upon anything outdated, please reach out via [discord](https://discord.gg/uJjuuAH5uX)
+
 # Steam 
 
 > Disclaimer: MAC Users do not have access to the Workshop from in game...

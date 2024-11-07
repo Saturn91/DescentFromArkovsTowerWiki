@@ -1,5 +1,7 @@
 <a href="../index.md">back</a>
 
+>If you stumble upon anything outdated, please reach out via [discord](https://discord.gg/uJjuuAH5uX)
+
 # Publishing Mods
 
 This guide will walk you through the process of publishing your mod to the Steam Workshop.

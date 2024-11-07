@@ -1,5 +1,7 @@
 <a href="index.md">back</a>
 
+>If you stumble upon anything outdated, please reach out via [discord](https://discord.gg/uJjuuAH5uX)
+
 # Create a new mod
 Everything related to mods happens in the games modmanager. You find it in the mainmenu under "Mods".
 

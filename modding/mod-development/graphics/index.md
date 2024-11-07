@@ -1,5 +1,7 @@
 <a href="../index.md">back</a>
 
+>If you stumble upon anything outdated, please reach out via [discord](https://discord.gg/uJjuuAH5uX)
+
 # Graphic Assests
 This section will guide you trough the steps of creating a mod which will overhall graphic assets.
 

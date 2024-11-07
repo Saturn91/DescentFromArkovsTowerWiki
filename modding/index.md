@@ -6,7 +6,7 @@
 - [subscribing / installing mods from the steam workshop](steam-workshop/steam-workshop-index.md)
 - Developing Mods
     - [creating and compiling new Mods](mod-creation.md)
-    - [mod graphics](graphics/index.md)
+    - [mod development](mod-development/index.md)
 
 ## Summary
 Modding in Descent from Akrov's tower is intended to be straight forward. You can simply start the game and will find an Option "Mods" in the main menu which leads you to the Modmanager. The ModManager is where you can:
