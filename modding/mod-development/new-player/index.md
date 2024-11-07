@@ -40,7 +40,9 @@ Good question. Lets have a look at this.
 
 In the mod you created there is a player folder, enter that one and find the file: `your-mod-name/player/player-config.mod.json`. In that file you find all the informations you need, lets look at the boots. The boots should be at `x=0,y=2` and `x=1,y=2`. You can also find all the other equipment in there like `helmet`, `dagger` and so on.
 
-![alt text](paladine_boots.png)
+<p align="center">
+  <img src="paladine_boots.png" alt="description" style="max-width: 360px; width: 360px; image-rendering: pixelated;">
+</p>
 
 ```json
 {
@@ -53,36 +55,6 @@ In the mod you created there is a player folder, enter that one and find the fil
             {
                 "x" : 1,
                 "y" : 2
-            }
-        ],
-        "breats_plate" : [
-            {
-                "x" : 2,
-                "y" : 1
-            },
-            {
-                "x" : 3,
-                "y" : 1
-            }
-        ],
-        "dagger" : [
-            {
-                "x" : 4,
-                "y" : 1
-            },
-            {
-                "x" : 5,
-                "y" : 1
-            }
-        ],
-        "default" : [
-            {
-                "x" : 0,
-                "y" : 0
-            },
-            {
-                "x" : 1,
-                "y" : 0
             }
         ],
         "helmet" : [
@@ -101,6 +73,29 @@ In the mod you created there is a player folder, enter that one and find the fil
     }
 }
 ```
+
+# Ok and how will I connect this to a specific item
+Good question, I see you already want to add a weapon which is not yet defined. Lets have a quick look into the Itemconfig file for the helmet. You can find that file in `your-mod-name/items/item-config.mod.json`
+
+As you can see there is a `animation` field which is called `helmet`. This id `helmet` must be defined in the `your-mod-name/player/player-config.mod.json` file. In there you specify which of the sprites it should take as a layer for the animation when the helmet is equiped.
+
+> Also note the `body_part` this is only used for the armor component in code to decide if a player already wears something on the body part, it has nothing todo with the visuals!
+
+```json
+{
+  "animation" : "helmet",
+  "body_part" : "head",
+  "name" : "helmet",
+  "protection" : 1,
+  "sprite" : {
+      "x" : 0,
+      "y" : 0
+  },
+  "type" : "armor",
+  "value" : 30
+},
+```
+
 <p align="center">
   <img src="../../../wip.png" alt="description" style="max-width: 500px;">
 </p>
