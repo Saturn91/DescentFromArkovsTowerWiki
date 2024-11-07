@@ -101,3 +101,6 @@ In the mod you created there is a player folder, enter that one and find the fil
     }
 }
 ```
+<p align="center">
+  <img src="../../../wip.png" alt="description" style="max-width: 500px;">
+</p>
