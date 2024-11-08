@@ -2,7 +2,7 @@
 
 >If you stumble upon anything outdated, please reach out via [discord](https://discord.gg/uJjuuAH5uX)
 
-# How to beginn
+# How to begin
 Create a new mod as shown in the [mod-creation section](../../mod-creation.md). Then come back here.
 
 # Adding a new player character
