@@ -107,5 +107,5 @@ That is it, now we can reference the graphics when we add a new player character
 
 # Lets proceed with the next step - actually adding our paladin to the game
 
-<a href="./edit-config.md" style="margin-left: 48px; font-size: 24px">-> next step</a>
+<a href="./adding-player.md" style="margin-left: 48px; font-size: 24px">-> next step</a>
 
