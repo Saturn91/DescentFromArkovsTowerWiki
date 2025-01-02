@@ -5,6 +5,15 @@
 # Create your own Map generator
 Creating your own Map generator can be challenging, but no worries we will go trough it step by step. At first we will go trough the basic in order to make you familiar with the basics.
 
+In this Tutorial I will
+- dive into how costum generators can be added to the game
+- explain at the general structure of the code
+- give an example for a minimalistic generator (generating a simple square level)
+- point to further sources on how to start developing your own generator
+
+# Creating the mod
+At this point you should already know how to create a new mod. Just in case, it is all described [here](../../mod-creation.md). Name your mod `MyGenerator`. You can now delete all folders and files except the `world` folder and the `main-config.mod.json` which you can use to also label your mod.
+
 # Locating the files we need to adapt
 To get started I will give you an overview of the files with which we will need to work with.
 
@@ -83,7 +92,7 @@ return {
     }
 }
 ```
-## Levels
+### Levels
 Lets now look at one specific level. In the code above I only keeped the code for one level.
 
 Each level has:
@@ -94,3 +103,18 @@ Each level has:
 
 This is how the area / level title gets displayed
 ![level title](level-title.png)
+
+## Generators
+The base game already comes with a few predefined generators. These are located in a mod's subfolder `world\generators`. Feel free to have a look at the files and take them as inspiration for your own creations.
+
+![alt text](generators.png)
+
+### Predefined Generators
+1. Default Generator -> not listed in the moddable generators
+2. GraveYardGenerator.lua -> This generator makes use of the cellular automata algorythm to create the graveyard of level 6-2.
+3. RoomsAndCorridor.lua -> This generator places as many rooms as possible in a given area, then tries to connect all of them. In the end it removes not yet connected rooms. It is used in the 2nd area of the game.
+4. TownGenerator.lua -> makes again use of the cellular automata algorthm to generate the town in 6-1
+
+# Lets now look at the basic structure of a generator script
+
+<a href="./generator-structure.md" style="margin-left: 48px; font-size: 24px">-> next step</a>

@@ -20,3 +20,6 @@ This section is for users which want to create their own mods. See bellow in the
 
 - Hard mode
     - [create your own map generator](map-generator/index.md)
+
+## Tipps and Tricks
+- [enable dev mode, add some usefull tools](./tipps-and-tricks/devmode.md)
