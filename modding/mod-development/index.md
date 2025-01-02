@@ -19,4 +19,7 @@ This section is for users who want to create their own mods. See below for step-
     - [create a new player](new-player/index.md)
 
 - Hard mode
-    - coming soon
+    - [create your own map generator](map-generator/index.md)
+
+## Tipps and Tricks
+- [enable dev mode, add some usefull tools](./tipps-and-tricks/devmode.md)
