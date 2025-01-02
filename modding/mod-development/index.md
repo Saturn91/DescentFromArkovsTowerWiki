@@ -19,4 +19,4 @@ This section is for users which want to create their own mods. See bellow in the
     - [create a new player](new-player/index.md)
 
 - Hard mode
-    - comming soon
+    - [create your own map generator](map-generator/index.md)
