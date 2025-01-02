@@ -158,7 +158,7 @@ Now our expected error gets logged, so lets add a size property to the definitio
     name = { id = "level_titles.generic.floor", variables = { floor = 21 } },
     generator = "my-generator-id",
     definition = {
-        size = { w = 10, h = 10 },
+        size = { w = 5, h = 5 },
         lootTable = {
             common = {}, --no chests in this area
         },
