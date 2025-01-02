@@ -89,7 +89,7 @@ I included the Color palette within the mod file so you can use the exact same c
 
 ## Step 6 Test your changes
 Do the following steps:
-1. [enable and compile](../mod-creation.md#enable-and-compile) your mod
+1. [Enable and compile](../mod-creation.md#enable-and-compile) your mod
 2. Start the game and play until you see a rat
 3. Notice the sunglasses!
 4. Rejoice!
